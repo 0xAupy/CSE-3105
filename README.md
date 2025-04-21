@@ -7,8 +7,7 @@
 - PC13 - PC15 (Port C, Pins 13-15) 
 
 
-### List of analog output (PWM) pins commonly used on the 
-Blue Pill: 
+### List of analog output (PWM) pins commonly used on the Blue Pill: 
 - PA0 (Timer2 Channel 1) 
 - PA1 (Timer2 Channel 2) 
 - PA2 (Timer2 Channel 3) 
