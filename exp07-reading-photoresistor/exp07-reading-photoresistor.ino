@@ -9,8 +9,8 @@ void setup() {
   pinMode(WLED, OUTPUT);  // Set White LED pin as output
 }
 void loop() {
-  val = analogRead(LIGHT);                       // Read the light sensor
-  val = map(val, MIN_LIGHT, MAX_LIGHT, 255, 0);  // Map the light reading
-  val = constrain(val, 0, 255);                  // Constrain light value
-  analogWrite(WLED, val);                        // Control the White LED
+  val = analogRead(LIGHT);                       // Read the light level from the sensor
+  val = map(val, MIN_LIGHT, MAX_LIGHT, 255, 0);  // Map brightness inversely
+  val = constrain(val, 0, 255);                  // Ensure brightness stays within 0–255
+  analogWrite(WLED, val);                        // Set the LED brightness
 }
