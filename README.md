@@ -17,4 +17,4 @@
 - PB0 (Timer3 Channel 3) 
 - PB1 (Timer3 Channel 4) 
 - PB6 (Timer4 Channel 1) 
--. PB7 (Timer4 Channel 2) 
+- PB7 (Timer4 Channel 2) 
